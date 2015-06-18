@@ -15,7 +15,10 @@ public class BanMethodOverridden {
 	
 	
 	public final void banOverrite(){
-		System.out.println("Sorry you can be overidden me!" );
+		System.out.println("Sorry you can be overidden final method!" );
+	}
+	public  final static void banOverriteStaticFinal(){
+		System.out.println("Sorry you can be overidden final static method!" );
 	}
 	public void overriteWhatever(){
 		System.out.println("BanMethodOverritten.overriteWhatever can be overidden by subclass" );

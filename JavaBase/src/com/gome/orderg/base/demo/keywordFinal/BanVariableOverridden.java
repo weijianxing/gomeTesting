@@ -9,6 +9,8 @@ package com.gome.orderg.base.demo.keywordFinal;
 
 public class BanVariableOverridden {
 
+	public static final double PI = 3.141592653589793;
+	public static double diameter = 2;
 	private final String name;
 	private final int age = 30;
 	private String addr = ""; 
