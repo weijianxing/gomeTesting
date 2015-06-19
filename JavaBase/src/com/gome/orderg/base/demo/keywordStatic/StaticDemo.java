@@ -29,6 +29,9 @@ public class StaticDemo {
 		tester.executeTesting("OMS");
 		
 		System.out.println("I've executed " + reTest.callTimes);
+		
+		SingletonPatternDemo singleton = SingletonPatternDemo.getInstance();
+		
 	
 	}
 
